@@ -18,21 +18,29 @@
   <body>
     <h3>Dati Anagrafici</h3>
     <label for="email">Email:</label>
+	<strong><abbr title="richiesto">*</abbr></strong>
     <input type="email" />
+	
 
     <label for="password">Password:</label>
+	<strong><abbr title="richiesto">*</abbr></strong>
     <input type="password" name="password" required />
+	
 
     <label for="nome"> Nome:</label>
+	<strong><abbr title="richiesto">*</abbr></strong>
     <input type="text" name="nome" id="nome" />
 
     <label for="cognome"> Cognome:</label>
+	<strong><abbr title="richiesto">*</abbr></strong>
     <input type="text" name="cognome" id="cognome" />
 
     <label for="datanascita">Data di Nascita:</label>
+	<strong><abbr title="richiesto">*</abbr></strong>
     <input type="date" name="nascita" id="nascita" />
 
     <label for="telefono">Telefono:</label>
+	<strong><abbr title="richiesto">*</abbr></strong>
     <input type="text" name="telefono" />
 
     <h3>Scegli il tuo piano</h3>
@@ -46,6 +54,7 @@
     <input type="checkbox" name="Pro" id="pro" />
     <h3>Carta di Credito</h3>
     <label for="carta">Numero di Carta</label>
+	<strong><abbr title="richiesto">*</abbr></strong>
     <input
       type="text"
       name="numero"
@@ -54,17 +63,32 @@
       maxlength="16"
     />
     <label for="cvc">CVC</label>
+	<strong><abbr title="richiesto">*</abbr></strong>
     <input type="text" minlength="3" maxlength="3" />
+
     <label for="scadenza">Scadenza</label>
+	<strong><abbr title="richiesto">*</abbr></strong>
     <input type="date" name="scadenza" id="scadenza" />
     <h3>Indirizzo di Fatturazione</h3>
+
     <label for="strada">Strada</label>
+	<strong><abbr title="richiesto">*</abbr></strong>
     <input type="text" name="strada" />
+	
     <label for="adress">Citta</label>
+	<strong><abbr title="richiesto">*</abbr></strong>
     <input type="text" name="cita" />
+
     <label for="provincia">Provincia</label>
+	<strong><abbr title="richiesto">*</abbr></strong>
     <input type="text" name="Provincia" />
+
     <label for="cap">Codice Postale </label>
+	<strong><abbr title="richiesto">*</abbr></strong>
     <input type="text" name="codice postale" />
+
+	<button>Invia</button>
+	
+	<form action="start.html" method="post"></form>
   </body>
 </html>
