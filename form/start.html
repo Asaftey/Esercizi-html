@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Lezione HTML</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h3>Dati Anagrafici</h3>
+    <label for="email">Email:</label>
+    <input type="email" />
+
+    <label for="password">Password:</label>
+    <input type="password" name="password" required />
+
+    <label for="nome"> Nome:</label>
+    <input type="text" name="nome" id="nome" />
+
+    <label for="cognome"> Cognome:</label>
+    <input type="text" name="cognome" id="cognome" />
+
+    <label for="datanascita">Data di Nascita:</label>
+    <input type="date" name="nascita" id="nascita" />
+
+    <label for="telefono">Telefono:</label>
+    <input type="text" name="telefono" />
+
+    <h3>Scegli il tuo piano</h3>
+    <label for="abonamento">Abonamento:</label>
+    <select name="abonamento" id="abonamento">
+      <option value="free">Free</option>
+      <option value="family">Family</option>
+      <option value="group">Gruppo</option>
+    </select>
+    <label for="pro">Scegli Pro:</label>
+    <input type="checkbox" name="Pro" id="pro" />
+    <h3>Carta di Credito</h3>
+    <label for="carta">Numero di Carta</label>
+    <input
+      type="text"
+      name="numero"
+      id="numero carta"
+      minlength="13"
+      maxlength="16"
+    />
+    <label for="cvc">CVC</label>
+    <input type="text" minlength="3" maxlength="3" />
+    <label for="scadenza">Scadenza</label>
+    <input type="date" name="scadenza" id="scadenza" />
+    <h3>Indirizzo di Fatturazione</h3>
+    <label for="strada">Strada</label>
+    <input type="text" name="strada" />
+    <label for="adress">Citta</label>
+    <input type="text" name="cita" />
+    <label for="provincia">Provincia</label>
+    <input type="text" name="Provincia" />
+    <label for="cap">Codice Postale </label>
+    <input type="text" name="codice postale" />
+  </body>
+</html>
